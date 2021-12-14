@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import static java.awt.Color.white;
 
 @Controller
-public class sandwichController {
+public class SandwichController {
     @GetMapping("/")
     public String show() {
         return "sandwich";
